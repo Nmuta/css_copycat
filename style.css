@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  min-width: 575px;
+  height: 100vh;
+}
+
+header {
+  background-color: #2F2F2F;
+  height: 150px;
+}
+
+header img {
+  height: 115px;
+  width: 115px;
+  margin: 5px 0px 0px 30px;
+}
+
+header img:nth-child(-n+3) {
+  float: left;
+}
+
+header img:nth-child(3) {
+  -webkit-animation: rotating 3s linear infinite;
+}
+
+header img:last-child {
+  float: right;
+  margin-left: 0px;
+  margin-right: 25px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #2F2F2F;
+  height: 30px;
+  color: #d88424
+}
+
+footer h3 {
+  margin-top: 3px;
+}
+
+main {
+  padding-top: 30px;
+  height: 100%;
+  width: 575px;
+  background-color: purple;
+}
+
+.bigCoin {
+  text-align: center;
+  height: 275px;
+  background-image: url("images/usa1.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.smallCoins img {
+  -webkit-animation: rotating 3s linear infinite;
+  height: 35px;
+  width: 35px;
+  margin-bottom: 10px;
+}
+
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
