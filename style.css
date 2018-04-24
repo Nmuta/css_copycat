@@ -1,0 +1,87 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+.container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom:0;
+  right:0;
+}
+.row {
+width:100%;
+display: block;
+}
+.image{
+  width: 80%;
+  height: 80%;
+  display:block;
+}
+
+.first{
+  width: 15%;
+  height: 70%;
+    background: url(https://raw.githubusercontent.com/Nmuta/css_copycat/master/images/usa1.png);
+    background-size: contain;
+     background-repeat: no-repeat;
+     display:inline-block;
+  padding-top:80px;
+     margin-left: 60px;
+
+}
+.image1{
+
+     margin-left: 60px;
+   }
+.image2{
+
+
+     margin-left: 100px;
+}
+
+.image3 {
+  margin-left: 100px;
+  -moz-animation: spin 3s infinite linear;
+  -webkit-animation: spin 3s infinite linear;
+}
+
+@-moz-keyframes spin {
+  0% {-moz-transform: rotate(0deg);}
+  100% {-moz-transform: rotate(360deg);}
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform:rotate(0deg); }
+    100% { -webkit-transform:rotate(360deg); }
+}
+
+image4{
+
+     margin-left: 180px;
+}
+.row1{
+  height:200px;
+  /* margin:0px auto; */
+  background-color: black;
+
+
+}
+.row2{
+    height:510px;
+  background-color: white;
+}
+
+.row3{
+  height:70px;
+  background-color: black;
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+  color: white;
+  text-align: center;
+}
