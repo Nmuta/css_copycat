@@ -1,0 +1,96 @@
+body{
+
+  hight:100vh;
+  width: 100vw;
+  min-width: 809px;
+  margin: 0px auto;
+
+
+}
+.topBar{
+  flex-wrap: nowrap;
+  background-color: black;
+}
+img{
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+}
+.float{
+  display: flex;
+  float:right;
+  clear: both;
+}
+.backColor{
+background-color: purple;
+height: 800px;
+width: 800px;
+padding: 20px;
+}
+.backImg{
+  background-repeat:no-repeat;
+  height: 400px;
+  width: 400px;
+  margin: 0px auto;
+
+
+  background-image: url("images/usa1.png");
+  position: relative;
+  background-size: cover;
+  background-position: center;
+
+
+}
+.backImg > .spin{
+display: flex;
+flex-direction: column;
+height: 50px;
+width: 50px;
+margin-left: 160px;
+
+}
+
+.spin{
+  -webkit-animation:rotation 3s infinite linear;
+}
+@-webkit-keyframes rotation{
+  from{
+    -webkit-transform: rotate(0deg);
+  }
+  to{
+    -webkit-transform:rotate(359deg);
+  }
+
+}
+
+footer{
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  color: white;
+  background-color: black;
+}
+
+
+
+
+/* //body {
+		text-align: center;
+		padding: 100px 0 0 0;
+		color: #fff;
+		background: #1d1f20;
+}
+
+#loading {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+} */
