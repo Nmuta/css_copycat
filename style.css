@@ -1,0 +1,90 @@
+body{
+  height:100vh;
+  width: 100vw;
+}
+
+header{
+  width: 100%;
+  background-color: #303030;
+}
+
+.coin_purse{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.small_coin{
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.ethiopia1{
+  padding: 2px;
+  max-width: 90px;
+  max-height: 90px;
+}
+
+#spinner{
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.small_coin:nth-child(4){
+  margin-left: auto;
+}
+.bottom{
+  height: 100%;
+
+}
+
+.left{
+  background: purple;
+  width: 400px;
+  height: 100%;
+
+}
+
+.liberty{
+  background-size: contain;
+  background-image: url("images/usa1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  text-align: center;
+}
+
+.back{
+
+}
+
+.img {
+  padding: 2px;
+  height: 30px;
+  width: 30px;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.fixed {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #303030;
+   color: orange;
+   text-align: center;
+}
