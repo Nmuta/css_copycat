@@ -1,0 +1,55 @@
+.header,
+.footer {
+  background-color: brown;
+}
+.pizza {
+
+  min-width: 350px;
+}
+
+
+img {
+  height: 100px;
+  width: 100px;
+
+}
+#loading {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+h6 {
+  text-align: center;
+}
+
+.col-5 {
+  background-color: purple;
+  height: 600px;
+  width: 530px;
+  text-align: center;
+  min-width: 530px;
+  min-height: 600px;
+}
+
+#coin-usa {
+  height: 300px;
+  width: 300px;
+  margin-top: 50px;
+}
+.small-coin {
+  height: 30px;
+  width: 30px;
+  display: block;
+  margin: 0 auto;
+}
+.test {
+  position: relative;
+  bottom: 300px;
+}
