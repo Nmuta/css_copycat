@@ -1,0 +1,147 @@
+body{
+    height:100%;
+    width:100%; 
+}
+
+.container{
+    background-color: purple;
+    width:35%;
+ 
+}
+
+.header{
+    background-color: darkgrey;
+    height: 100px;
+     
+    
+}
+.coin{
+    height:95px;
+    width : 100px; 
+
+
+}
+#coin4{
+    float: right;
+    
+}
+
+#coin3{
+    
+        width: 100px;
+        height: 100px;
+        /* background-color: #0CB1C4; */
+        animation-name: spin;
+        animation-duration: 5000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+} 
+    @keyframes spin {
+        from {
+            transform:rotate(0deg);
+        }
+        to {
+            transform:rotate(360deg);
+        } 
+    
+}
+.footer{
+    height:30px;
+    background-color: darkblue;
+    -webkit-text-fill-color: darkorange;
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+
+   
+}
+
+#coin5{
+    height: 400px;
+    width: 300px; 
+    /* background-image:url(usa2.png) */
+    
+    /* background-image: url(usa2.png); */
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+ #coin6{
+    
+    position: absolute;
+    background-image: url(usa1.png);
+    width: 35px;
+    height: 35px;
+    /* background-color: #0CB1C4; */
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-left: 220px;
+    margin-top: 30px;
+} 
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    } 
+
+} 
+
+
+#coin7{
+    position: absolute;
+    background-image: url(usa1.png);
+    width: 35px;
+    height: 35px;
+    /* background-color: #0CB1C4; */
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-left: 220px;
+    margin-top: 70px;
+} 
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    } 
+
+}
+
+
+ 
+
+#coin8{
+    height:35px;
+    width:35px;
+    position: absolute;
+    background-image: url(usa1.png);
+   
+    /* background-color: #0CB1C4; */
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-left: 220px;
+    margin-top: 110px;
+} 
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    } 
+
+}
+
+.coinBackground{
+    margin: 0px auto; 
+}
