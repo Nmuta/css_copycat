@@ -19,6 +19,8 @@ display: block;
   width: 80%;
   height: 80%;
   display:block;
+  padding-top:5px;
+
 }
 
 .first{
@@ -35,17 +37,24 @@ display: block;
 .image1{
 
      margin-left: 60px;
+     padding-left: 20px;
+     padding-right: 20px;
+
    }
 .image2{
 
 
      margin-left: 100px;
+     padding-left: 20px;
+     padding-right: 20px;
 }
 
 .image3 {
   margin-left: 100px;
   -moz-animation: spin 3s infinite linear;
   -webkit-animation: spin 3s infinite linear;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @-moz-keyframes spin {
@@ -58,14 +67,20 @@ display: block;
     100% { -webkit-transform:rotate(360deg); }
 }
 
-image4{
+.image4{
 
-     margin-left: 180px;
+     margin-left: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
 }
 .row1{
   height:200px;
-  /* margin:0px auto; */
+
   background-color: black;
+  margin-left: -10px;
+
+  padding-right: 20px;
+  margin-top:-10px;
 
 
 }
